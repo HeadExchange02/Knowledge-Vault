@@ -7,7 +7,7 @@ header nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #f8f8f8;
+    background-color: #ffffff;
     border: 1px solid #ccc;
 
 }
@@ -28,10 +28,12 @@ nav .menu a{
     text-decoration: none;
     color: #000000;
     font-size: 16px;
+    font-style: bold;
+    font-weight: 550;
 }
 
 nav .btn-navbar{
-    color: #ccc;
+    color: #ffffff;
     border: none;
     border-radius: 5px;
     background-color: #30b868;
@@ -41,5 +43,10 @@ nav .btn-navbar{
     font-style: Semi Bold;
     font-weight: 600;
     margin-right: 120px;
+}
+
+.btn-navbar:hover{
+    color: rgb(49, 49, 49);
+    background-color: lightgreen;
 }
 
