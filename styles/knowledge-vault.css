@@ -51,7 +51,7 @@ nav .btn-navbar{
 
 #banner{
     width: 1920px;
-    height: 920px;
+    height: 465px;
     background:url(../assets/hero-bg.png) ;
     background-size: 1920px 920px;
     background-repeat: no-repeat;
@@ -63,9 +63,6 @@ nav .btn-navbar{
 #banner .banner-container{
     width: 1460px;
     height: 500px;
-
-    border: 1px solid #e90c0c;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -137,4 +134,73 @@ nav .btn-navbar{
     font-weight: 600;
     line-height: 19px;
     letter-spacing: 0%;
+}
+
+#note{
+    width: 1920px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.note-container h1{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.section-Header p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.note-box{
+    display: flex;
+    margin-top: 44px;
+    gap: 25px;
+}
+
+.note-box .note-card {
+    padding: 30px;
+    /* border: 1px solid #e0e0e0; */
+    border-radius: 10px;
+    box-shadow: 0px 6px 50px #00000063;
+    max-width: 270px;
+}
+
+.note-card img{
+    max-width: 50px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.note-card h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #001931;
+}
+
+.note-card p {
+    font-size: 16px;
+    line-height: 30px;
+    color: #627382;
+    justify-content: center;
+}
+
+.note-card img{
+    max-width: 50px;
+    border: none;
+    background: rgba(249, 85, 85, 1);
+    padding: 10px;
+    border-radius: 100%;
+    margin-bottom: 30px;
 }
