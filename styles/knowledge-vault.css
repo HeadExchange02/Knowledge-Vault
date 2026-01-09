@@ -138,7 +138,6 @@ nav .btn-navbar{
 
 #note{
     width: 1920px;
-    border: 1px solid red;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -203,4 +202,44 @@ nav .btn-navbar{
     padding: 10px;
     border-radius: 100%;
     margin-bottom: 30px;
+}
+
+#second-brain{
+    width: 1920px;
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+    padding: 230px;
+}
+
+#second-brain .second-brain-container{
+    width: 1500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.second-brain-container .content h4{
+    color: #30b868;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0%;
+}
+
+.second-brain-container .content h1{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.second-brain-container .content p{
+    color: #627382;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
 }
