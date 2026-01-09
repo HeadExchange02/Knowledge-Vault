@@ -123,6 +123,11 @@ nav .btn-navbar{
     align-items: center;
 }
 
+.btn-banner-1 :hover{
+    color: rgb(49, 49, 49);
+    background-color: lightgreen;
+}
+
 .banner-container .btn-banner-2{
     color: #ffffff;
     background-color: transparent;
@@ -294,6 +299,10 @@ nav .btn-navbar{
     align-items: center;
 }
 
+.btn-early-access:hover{
+    color: rgb(49, 49, 49);
+    background-color: lightgreen;
+}
 footer{
     max-width: 1920px;
     height: 250px;
